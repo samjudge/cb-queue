@@ -1,0 +1,24 @@
+{
+  "name": "cb-queue",
+  "version": "0.1.0",
+  "description": "Simple utility to queue async functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hammy2899/cb-queue.git"
+  },
+  "keywords": [
+    "callback",
+    "async",
+    "queue"
+  ],
+  "author": "hammy2899",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hammy2899/cb-queue/issues"
+  },
+  "homepage": "https://github.com/hammy2899/cb-queue#readme"
+}
