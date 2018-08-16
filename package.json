@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Simple utility to queue async functions",
   "main": "src/index.js",
-  "module": "dist/index.js"
+  "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
