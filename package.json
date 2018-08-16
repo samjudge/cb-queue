@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "cb-queue@0.1.0",
+      "/var/www/html/helpdesk/helpdesk_v2"
+    ]
+  ],
+  "_from": "cb-queue@0.1.0",
+  "_id": "cb-queue@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dmYT9Sbf0BNbJLSsOQN95UfvWqda2MKAIt18LFJ65L6hzVWqPVYQvR5j8fKdpBwWonD4+q7EhjunADpLJNbQpw==",
+  "_location": "/cb-queue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cb-queue@0.1.0",
+    "name": "cb-queue",
+    "escapedName": "cb-queue",
+    "rawSpec": "0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "0.1.0"
+  },
+  "_requiredBy": [
+    "/@helpdesk/client"
+  ],
+  "_resolved": "https://registry.npmjs.org/cb-queue/-/cb-queue-0.1.0.tgz",
+  "_spec": "0.1.0",
+  "_where": "/var/www/html/helpdesk/helpdesk_v2",
+  "author": {
+    "name": "hammy2899"
+  },
+  "bugs": {
+    "url": "https://github.com/hammy2899/cb-queue/issues"
+  },
+  "description": "Simple utility to queue async functions",
+  "homepage": "https://github.com/hammy2899/cb-queue#readme",
+  "keywords": [
+    "callback",
+    "async",
+    "queue"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "cb-queue",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hammy2899/cb-queue.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
