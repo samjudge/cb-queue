@@ -4,6 +4,6 @@ const
 ;
 
 module.exports = {
-  Queue,
-  QueueFunction
+  Queue: Queue,
+  QueueFunction: QueueFunction
 };
