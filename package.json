@@ -2,9 +2,11 @@
   "name": "cb-queue",
   "version": "0.1.1",
   "description": "Simple utility to queue async functions",
-  "main": "index.js",
+  "main": "src/index.js",
+  "module": "dist/cb-queue.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/hammy2899/cb-queue/issues"
   },
-  "homepage": "https://github.com/hammy2899/cb-queue#readme"
+  "homepage": "https://github.com/hammy2899/cb-queue#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
 }
